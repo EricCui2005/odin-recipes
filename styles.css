@@ -7,9 +7,23 @@ h1 {
 
 }
 
+.bordered {
+    color: white;
+    width: 400px;
+    height: auto;
+    border: 2px solid black;
+    background-color: green;
+    padding: 10px;
+    margin: 5px auto;
+    display: block;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
 div {
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 h1,
@@ -19,13 +33,15 @@ a,
     font-family: sans-serif;
 }
 
-.bordered {
-    color: white;
-    border: 2px solid black;
-    background-color: green;
-    padding: 10px;
-    margin: 5px;
+img {
+    display: block;
+    margin: 10px auto;
+    box-sizing: border-box;
+    width: 100px;
+    height: auto;
+    border: 2px solid rgb(14, 143, 0);
 }
+
 
 
 
